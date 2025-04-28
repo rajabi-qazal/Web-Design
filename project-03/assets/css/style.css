@@ -93,3 +93,11 @@ a:hover {
     background-color: transparent;
     color: white !important;
 }
+@font-face {
+    font-family: Lexend Deca;
+    src: url(./project-03/assets/fonts/LexendDeca-Regular.ttf);
+}
+@font-face {
+    font-family:Big Shoulders ;
+    src: url(./project-03/assets/fonts/BigShouldersDisplay-Regular.ttf);
+}
