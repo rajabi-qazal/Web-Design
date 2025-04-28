@@ -93,6 +93,7 @@ a:hover {
     background-color: transparent;
     color: white !important;
 }
+
 @font-face {
     font-family: Lexend Deca;
     src: url(./project-03/assets/fonts/LexendDeca-Regular.ttf);
@@ -100,4 +101,23 @@ a:hover {
 @font-face {
     font-family:Big Shoulders ;
     src: url(./project-03/assets/fonts/BigShouldersDisplay-Regular.ttf);
+}
+
+@media(max-width:1440px){
+    .col-sedans{
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .col-luxury{
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
 }
