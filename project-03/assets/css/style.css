@@ -105,16 +105,23 @@ a:hover {
 
 @media(max-width:1440px){
     .col-sedans{
-        border-top-right-radius: 30px;
-        border-top-left-radius: 30px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: unset ;
     }
     .col-luxury{
-        border-top-right-radius: 30px;
-        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: unset;
+
     }
     .container {
         flex-direction: column;
-        width: 70%;
+        width: 90%;
     }
+    body{
+        min-height: 200vh;
+    }
+    
 
 }
