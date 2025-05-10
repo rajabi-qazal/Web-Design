@@ -96,11 +96,11 @@ a:hover {
 
 @font-face {
     font-family: Lexend Deca;
-    src: url(./project-03/assets/fonts/LexendDeca-Regular.ttf);
+    src: url(./assets/fonts/LexendDeca-Regular.ttf);
 }
 @font-face {
     font-family:Big Shoulders ;
-    src: url(./project-03/assets/fonts/BigShouldersDisplay-Regular.ttf);
+    src: url(./assets/fonts/BigShouldersDisplay-Regular.ttf);
 }
 
 @media(max-width:1440px){
