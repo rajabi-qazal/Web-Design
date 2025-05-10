@@ -20,11 +20,11 @@ body{
 
 @font-face {
     font-family:outfit ;
-    src: url(project-04/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(./project-04/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 @font-face {
     font-family:young-serif;
-    src: url(project-04/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url(./project-04/assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 img{
     width: 100%;
