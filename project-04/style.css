@@ -41,12 +41,12 @@ h1{
     font-family:young-serif ;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 16px;
 }
 
 p{
     color:var(--Stone-600);
     font-family: outfit;
+    font-size: 16px;
 }
 .pre{
     margin-top: 20px;
