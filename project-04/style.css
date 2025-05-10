@@ -105,55 +105,15 @@ table{
     border-bottom: unset;
 }
 
-/*@media (max-width:375px) {
+@media(max-width:375px){
     .container{
-        width: 90%;
+        width: 100%;
         margin: unset;
-        padding: unset;
         
     }
     img{
-        border-radius: unset;
+        border-radius: 0;
     }
-    .pre p h1 h3 .ingre .instruc .nut{
-
-    }
-}*/
-@media (max-width: 375px) {
-    .container {
-        width: 90%;
-        padding: 20px;
-        margin: 20px auto;
-    }
-
-    img {
-        border-radius: 10px;
-    }
-
-    h1 {
-        font-size: 22px;
-        line-height: 1.4;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    p, li, td {
-        font-size: 14px;
-        line-height: 1.6;
-    }
-
-    .pre, .instruc, .nut, .ingre {
-        padding: 10px 0;
-    }
-
-    td {
-        padding-right: 30px;
-        padding-left: 10px;
-    }
-
-    table {
-        width: 100%;
-    }
+    
 }
+
