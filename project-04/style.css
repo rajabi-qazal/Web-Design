@@ -20,11 +20,11 @@ body{
 
 @font-face {
     font-family:outfit ;
-    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 @font-face {
     font-family:young-serif;
-    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 img{
     width: 100%;
@@ -107,7 +107,7 @@ table{
     border-bottom: unset;
 }
 
-@media (max-width:375px) {
+/*@media (max-width:375px) {
     .container{
         width: 90%;
         margin: unset;
@@ -117,7 +117,45 @@ table{
     img{
         border-radius: unset;
     }
-    /*.pre p h1 h3 .ingre .instruc .nut{
+    .pre p h1 h3 .ingre .instruc .nut{
 
-    }*/
+    }
+}*/
+@media (max-width: 375px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p, li, td {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .pre, .instruc, .nut, .ingre {
+        padding: 10px 0;
+    }
+
+    td {
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
 }
