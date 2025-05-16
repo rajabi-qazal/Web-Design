@@ -1,0 +1,80 @@
+:root{
+    --Grey700: #333333;
+    --Grey800: #1f1f1f;
+    --Grey900: #141414;
+    --Green: #c5f82a;
+    --White: hsl(0, 0%, 100%);
+}
+@font-face {
+    font-family:inter ;
+    src: url(./assets/fonts/Inter-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:inter ;
+}
+
+body{
+    background-color:var(--Grey900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    background-color: var(--Grey800);
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    
+}
+img{
+    border-radius: 50%;
+    margin: 20px;
+    width: 30%;
+}
+h1{
+    color:var(--White);  
+}
+h3{
+    color: var(--Green);
+    margin-top: 7px;
+}
+p{
+    font-size: 14px;
+    color: var(--White);
+    opacity: 0.7;
+    margin: 20px;
+}
+a{
+    background-color: var(--Grey700);
+    border-radius: 10px;
+    color: var(--White);
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    width: 80%;
+    margin: 15px 45px;
+    
+}
+a:hover{
+    color: var(--Grey900);
+    background-color: var(--Green);
+
+}
+div{
+    margin-bottom: 40px;
+}
+
+
+@media(max-width:1440px) {
+    .container{
+        width: 70%;
+    }
+    
+}
