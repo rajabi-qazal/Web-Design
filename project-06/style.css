@@ -76,3 +76,8 @@ div p{
     font-weight: bold;
     font-size: 14px;
 }
+@media(max-width:1440px){
+    .container{
+        width: 320px;
+    }
+}
