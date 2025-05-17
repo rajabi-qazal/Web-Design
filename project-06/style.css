@@ -38,8 +38,8 @@ img{
 }
 .learning{
     background-color: var(--Yellow);
-    border-radius: 8px;
-    padding: 5px 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
     font-weight:bold;
     display: inline-block;
     margin: 10px 0;
@@ -79,5 +79,8 @@ div p{
 @media(max-width:1440px){
     .container{
         width: 70%;
+    }
+    h1{
+        font-size:large;
     }
 }
