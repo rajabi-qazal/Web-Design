@@ -78,6 +78,6 @@ div p{
 }
 @media(max-width:1440px){
     .container{
-        width: 320px;
+        width: 70%;
     }
 }
