@@ -188,9 +188,31 @@ body.night{
     #clock{
         width: 70%;
     }
-    .btn{
-        right: 50%;
-    }
+   
+   
+  .liner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .liner::before,
+  .liner::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: var(--Lightgrey);
+  }
+
+  .btn {
+    position: relative;
+    transform: none;
+    margin: 0 16px;
+  }
+  *{
+    font-size: 1.5rem;
+  }
     
 }
 
